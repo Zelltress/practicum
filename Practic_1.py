@@ -1,6 +1,7 @@
 #Exercize №1
 print ('Hello, Python!')
 
+
 #Exercize №2
 print("""
 Привет, Python!
@@ -10,9 +11,11 @@ Hej, Python!
 Hola, Python!
 """)
 
+
 #Exercize №3
 print('Привет', end=' ')
 print('Python!')
+
 
 #Exercize №4
 print ("""
@@ -21,19 +24,22 @@ print ("""
 (")_(")
 """)
 
+
 #Exercize №5
 print(' Привет, Python! \n Hello, Python! \n Bonjour Python! \n Hej, Python! \n Hola, Python!')
+
 
 #Exercize №6
 name = input('What is your name?: ')
 print('Hello,', name)
 
+
 #Exercize №7
 name = input('What is your name? ')
 print('Hello,', name)
-
 sport = input('What do you like? ')
 print('Great!', sport, 'are a good hobby.')
+
 
 #Exercize №8
 lg = input('Login: ')
@@ -44,10 +50,12 @@ if ps != ps_new:
 else:
     print('The passwords match')
 
+
 #Exercize №9
 music = input('Enter the playlist separated by a commas ').split(',')
 music.reverse()
 print ('\n'.join(music))
+
 
 #Exercize №10
 number = input('flight number: ')
@@ -59,6 +67,7 @@ print('Заканчивается посадка на рейс', number, 'ави
       name_ru, 'до', town_ru)
 print('This is the final boarding call for', name_en,
       'Airlines flight', number, 'to', town_en)
+
 
 #Exercize №11
 nm = input('What is your name? ' )
