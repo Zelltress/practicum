@@ -1,3 +1,6 @@
+#Practicum №1 
+#Cherkashina D.
+
 #Exercize №1
 print ('Hello, Python!')
 
