@@ -93,6 +93,52 @@ square(280, -43, 125, 8, 20)
 
 
 
+# Exercise №9
+import turtle
+
+turtle.speed(10)
+turtle.up()
+turtle.setposition(0, -200)
+turtle.down()
+turtle.circle(200)
+
+turtle.up()
+turtle.setposition(0, 0)
+turtle.down()
+
+turtle.left(90)
+turtle.forward(200)
+
+turtle.up()
+turtle.setposition(0, 0)
+turtle.down()
+
+turtle.left(30)
+turtle.forward(200)
+
+turtle.up()
+turtle.setposition(0, 0)
+turtle.down()
+
+turtle.left(40)
+turtle.forward(200)
+
+turtle.up()
+turtle.setposition(0, 0)
+turtle.down()
+
+turtle.left(70)
+turtle.forward(200)
+
+turtle.up()
+turtle.setposition(0, 0)
+turtle.down()
+
+turtle.left(110)
+turtle.forward(200)
+
+
+
 # Exercise №10
 raw = input('Enter number:')
 num = str(raw)
