@@ -1,4 +1,3 @@
-'''
 # Exercise №1
 cost = int(input())
 msv = list(str(cost))
@@ -19,9 +18,11 @@ num = int(input())
 if num % 2 == 0: print('0')
 else: print('1')
 
+
 # Exercise №4
 x, y, n = map(int, input().split())
 print((x + (y/100))*n)
+
 
 # Exercise №5
 n = int(input())
@@ -49,6 +50,7 @@ h = 7*100
 w = 5*100
 way = h^2+w^2
 print(way)
+
 
 # Exercise №8
 import turtle
@@ -111,11 +113,20 @@ print(A, B, C)
 
 
 # Exercise №12
-att = int(input())
-comp = int(input())
-yds = int(input())
-td = int(input())
-int = int(input())
+att, comp, yds, td, intt = map(int, input().split())
+x = ((comp/att) - 0.3)*5
+y = ((yds/att) - 3)/4
+z = (td/att)*20
+w = 2.375 - ((intt/att) * 25)
+print(x, y, z, w)
+if x < 0 or y < 0 or z < 0 or w < 0:
+    print('passer rating = 0')
+else:
+    if x > 2.375 or y > 2.375 or z > 2.375 or w > 2.375:
+        print('passer rating = 2.375')
+    else:
+        passer_rating = (x + y + z + w)/6 * 100
+        print(round(passer_rating, 2))
 
 
 
@@ -123,6 +134,7 @@ int = int(input())
 x = int(input())
 y = int(input())
 print(('0', '1')[x // y * y == x])
+
 
 
 # Exercise №14
@@ -133,10 +145,9 @@ n = float(input())
 
 # Exercise №15
 import datetime
-
-time = datetime.datetime.now()
+ 
 print(time)
-'''
+
 
 
 
