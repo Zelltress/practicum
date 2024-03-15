@@ -54,9 +54,9 @@ else:
 
 # Exercise №6
 frst_team, scnd_team = map(int, input().split(':'))
-if frst_team < scnd_team:
+if frst_team > scnd_team:
     print(1)
-elif scnd_team < frst_team:
+elif scnd_team > frst_team:
     print(2)
 else:
     print(0)
