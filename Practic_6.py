@@ -72,16 +72,12 @@ print(2*c)
 # Exersize 7
 n = int(input())
 k = 0
-for i in range(n+1):
-    n = n-7
-    if n % 5 == 0:
-        k += 1
-    else:
-        continue
-if k > 0:
+n = n-7
+if n % 5 == 0:
     print('yes')
 else:
     print('no')
+
 
 
 
