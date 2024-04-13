@@ -95,10 +95,10 @@ for i in range(1, 10):
 
 
 # Exercise №8.3
-def times(n):
+def stair(n):
   return ['1'*k for k in range(1, n+1)]
 
-for x in times(10):
+for x in stair(10):
   print(f'{x} x {x} = {int(x)**2}')
 
 
