@@ -115,14 +115,5 @@ print(sum)
 
 
 # Exersize 10
-def count(k,n):
-    с = 0
-    if n == 0:
-        return 1
-    elif k < n:
-        for i in range(k+1, n+1):
-            с += count(i, n-i)
-    return с
-
-n = int(input())
-print(count(0, n))
+n = ((int(input()) * 2) ** 0.5) - 0.4
+print(int(n)+1)
